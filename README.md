@@ -20,17 +20,15 @@
 
 ## 1. Business problem and executive summary
 
-Public education bodies face substantial costs and operational disruptions when experienced personnel depart unexpectedly. In Queensland, Australia, exit surveys were administered by two separate entities:
-- **DETE:** Department of Education, Training and Employment (primary & secondary schooling)
-- **TAFE:** Technical and Further Education institute (vocational education)
+Public education bodies face substantial costs and operational disruptions when experienced personnel depart unexpectedly. In Queensland, Australia, exit surveys were administered by two separate entities: the Department of Education, Training and Employment (DETE, covering primary and secondary schooling) and the Technical and Further Education institute (TAFE, covering vocational education).
 
-Because the surveys were operated independently, their question schemas, missing value representations, and tenure metrics were incompatible.
+Because the surveys operated independently, their question schemas, missing value representations, and tenure metrics were incompatible.
 
 ### Key project outcomes
 - Unified over 6,600 raw survey records and filtered 3,868 voluntary resignations into a standardized columnar table.
 - Mapped diverse dissatisfaction indicators into a single reliable metric.
 - Discovered that employee dissatisfaction scales directly with tenure: veteran employees (11+ years) resign due to dissatisfaction at over 1.6 times the rate of early-career employees.
-- Delivered an interactive Streamlit presentation dashboard built with an Apple-inspired Premium design language.
+- Built an interactive Streamlit presentation dashboard using an Apple-inspired design language.
 
 ---
 
@@ -101,19 +99,21 @@ The project enforces strict layer separation. Analytics and UI layers treat all 
 
 ## 5. Core analytical findings and takeaways
 
-1. **Tenure Vulnerability Curve:**
-   - **New Staff (<3 years):** 32.6% dissatisfaction rate. Primary reasons: external career opportunities in the private sector.
-   - **Experienced Staff (3-6 years):** 36.6% dissatisfaction rate.
-   - **Established Staff (7-10 years):** 45.8% dissatisfaction rate.
-   - **Veteran Staff (11+ years):** 52.6% dissatisfaction rate. Over half of departing senior personnel cite job dissatisfaction, workload fatigue, or departmental friction.
-2. **Institutional Disparity:**
-   - DETE personnel report an overall dissatisfaction rate of 46.5%, compared to 30.2% in TAFE.
-   - Teachers and education delivery roles report the highest dissatisfaction, driven primarily by workload and work-life balance pressure.
-3. **Primary Friction Drivers:**
-   - General job dissatisfaction (25.0% of resignations).
-   - Private sector career competition (22.2% of resignations).
-   - Workload and administrative fatigue (12.5% of resignations).
-   - Department management friction (10.8% of resignations).
+### Tenure vulnerability curve
+- New staff with under 3 years of service have a 32.6% dissatisfaction rate, primarily resigning for private sector career opportunities.
+- Experienced staff (3 to 6 years) show a 36.6% dissatisfaction rate.
+- Established staff (7 to 10 years) show a 45.8% dissatisfaction rate.
+- Veteran staff with 11 or more years reach a 52.6% dissatisfaction rate, with over half citing job dissatisfaction, workload fatigue, or departmental friction.
+
+### Institutional disparity
+- DETE staff report a 46.5% dissatisfaction rate compared to 30.2% in TAFE.
+- Teachers and education delivery roles report the highest dissatisfaction, driven by workload and work-life balance pressure.
+
+### Leading friction drivers
+- General job dissatisfaction accounts for 25.0% of resignations.
+- Private sector career moves account for 22.2% of resignations.
+- Workload and administrative fatigue account for 12.5% of resignations.
+- Department management friction accounts for 10.8% of resignations.
 
 ---
 
