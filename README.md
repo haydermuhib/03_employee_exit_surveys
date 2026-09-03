@@ -62,8 +62,7 @@ The raw surveys presented distinct naming conventions that were normalized durin
 - **Data Engineering:** `pandas`, `numpy`, `pyarrow`
 - **Visualization & UI:** `plotly`, `streamlit`
 - **Interactive Walkthrough:** `jupyter`, `nbformat`
-- **Design Aesthetic:** `/premium` (Apple-inspired system typography, clean contrast, zero emojis)
-
+- **Design Aesthetic:** `/premium`
 ---
 
 ## 4. System architecture and pipeline flow

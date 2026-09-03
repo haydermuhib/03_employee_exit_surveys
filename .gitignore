@@ -1,7 +1,6 @@
 .venv/
 data/raw/
-docs/
-notebooks/
+docs/superpowers/
 project_design_rules.md
 __pycache__/
 *.pyc
