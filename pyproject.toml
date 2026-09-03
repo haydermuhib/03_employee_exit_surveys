@@ -1,0 +1,14 @@
+[project]
+name = "employee-exit-surveys"
+version = "0.1.0"
+description = "Australian Government Employee Exit Survey Analysis (DETE vs TAFE)"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "streamlit>=1.35.0",
+    "pandas>=2.0.0",
+    "numpy>=1.24.0",
+    "pyarrow>=12.0.0",
+    "plotly>=5.15.0",
+    "nbformat>=5.9.0",
+]

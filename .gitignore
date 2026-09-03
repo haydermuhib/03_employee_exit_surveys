@@ -1,0 +1,8 @@
+.venv/
+data/raw/
+docs/
+notebooks/
+project_design_rules.md
+__pycache__/
+*.pyc
+.DS_Store
