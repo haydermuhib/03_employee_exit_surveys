@@ -1,7 +1,9 @@
 .venv/
 data/raw/
 docs/superpowers/
+PROJECT_RULES.md
 project_design_rules.md
+Design.md
 __pycache__/
 *.pyc
 .DS_Store
