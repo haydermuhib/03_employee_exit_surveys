@@ -1,6 +1,7 @@
 # Employee Exit Survey Analysis (DETE vs. TAFE)
 ## Technical portfolio presentation
 
+**Live Application:** https://03employeeexitsurveys.streamlit.app/
 **Duration:** 10 minutes review
 **Audience:** Technical Recruiters and Hiring Managers
 **Date:** 2026-09-03
@@ -143,14 +144,17 @@ You need Python 3.10 or newer and `uv` installed.
 
 ## Quick reference card
 
-### Core scripts
-| Step | Command |
+### Core links and scripts
+| Resource / Step | Location / Command |
 | :--- | :--- |
+| Live Dashboard | https://03employeeexitsurveys.streamlit.app/ |
 | Ingestion | `uv run python data/download_data.py` |
 | Production ETL | `uv run python src/data_prep.py` |
-| Interactive UI | `uv run streamlit run app.py` |
+| Local Dashboard | `uv run streamlit run app.py` |
+| Exploratory Notebook | `notebooks/01_exit_survey_cleaning_and_eda.ipynb` |
 
 ### Output Parquet files
 - Unified Resignations: `data/processed/combined_resignations.parquet`
 - Cleaned DETE: `data/processed/dete_clean.parquet`
 - Cleaned TAFE: `data/processed/tafe_clean.parquet`
+
